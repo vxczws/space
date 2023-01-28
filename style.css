@@ -1,0 +1,60 @@
+h1 {
+	color: darkred;
+	font-size: 70px;
+	text-align: center;
+}
+
+body {
+	background-color: Cornsilk;
+	font-family: sans-serif;
+}
+
+main img {
+	border: 5px groove darkred;
+	width: 450px;
+	height: 250px;
+	padding: 5px;
+	margin: 10px;
+}
+
+main {
+	border: black;
+	text-align: center;
+	font-size: 20px;
+	padding: 50px;
+}
+
+nav {
+	background-color: navajowhite;
+	padding: 20px;
+}
+
+nav a {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid cornsilk;
+	background-color: cornsilk;
+	border-radius: 20px;
+	font-size: 20px;
+	text-decoration: none;
+	color: darkred;
+}
+
+footer {
+	background-color: wheat;
+	padding: 10px;
+}
+
+footer p {
+	color: sandybrown;
+	font-size: 30px;
+	text-align: left;
+	background-color: cornsilk;
+	padding: 5px;
+}
+
+footer img {
+	width: 165px;
+	height: 150px;
+	margin: 0px 20px 0px 20px;
+}
