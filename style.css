@@ -5,7 +5,7 @@ h1 {
 }
 
 body {
-	background-color: Cornsilk;
+	background-color: cornsilk;
 	font-family: sans-serif;
 }
 
@@ -15,7 +15,9 @@ main img {
 	height: 250px;
 	padding: 5px;
 	margin: 10px;
+	opacity: 0,5px;
 }
+
 
 main {
 	border: black;
@@ -26,18 +28,38 @@ main {
 
 nav {
 	background-color: navajowhite;
-	padding: 20px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	justify-content: space-around;
+	box-shadow: 5px 5px 5px 0 darkred;
 }
 
 nav a {
 	padding: 10px;
-	margin: 10px;
+	margin: 5px;
 	border: 1px solid cornsilk;
 	background-color: cornsilk;
 	border-radius: 20px;
-	font-size: 20px;
+	font-size: 25px;
 	text-decoration: none;
 	color: darkred;
+	height: 30px;
+	margin-top: 35px;
+	box-shadow: 5px 5px 5px 0 darkred;
+}
+
+nav a:hover {
+    background-color: orange;
+    color: yellow;
+    font-size: 28px;
+}
+
+nav a:focus {
+	background-color: orangered;
+	color: black;
+	font-size: 25px;
+	border: 3px groove red;
 }
 
 footer {
@@ -54,7 +76,57 @@ footer p {
 }
 
 footer img {
-	width: 165px;
-	height: 150px;
+	width: 115px;
+	height: 100px;
 	margin: 0px 20px 0px 20px;
+}
+
+main p {
+	font-size: 25px;
+}
+
+main img:hover {
+    opacity: 1px;
+    width:465px ;
+    height:265px ;
+}
+
+.logo {
+	width: 150px;
+	height: 120px;
+}
+
+.inim3 {
+	display: flex;
+	justify-content: ;
+	width: 250px;
+	height: 250px;
+}
+
+.adress p {
+    color: sandybrown;
+	font-size: 30px;
+	text-align: left;
+	background-color: cornsilk;
+	padding: 5px;
+}
+
+.social {
+   display: flex;
+   justify-content: center;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+main aside {
+	margin-top: 50px;
+}
+
+main nav {
+	background-color: #FFECD0;
+	margin-top: 50px;
 }
